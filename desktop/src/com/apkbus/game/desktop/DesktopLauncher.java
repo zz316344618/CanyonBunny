@@ -7,6 +7,9 @@ import com.apkbus.game.MainGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		
+		config.title = "game";
+		
 		new LwjglApplication(new MainGame(), config);
 	}
 }
